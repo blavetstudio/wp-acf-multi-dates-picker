@@ -59,7 +59,7 @@
 		
 		if($field.text() != '') {
 			$dates = jQuery.map($field.text().split(","), jQuery.trim);
-			$defaultDate = $dates[0];
+			// $defaultDate = $dates[0];
 		}
 
 		var $datapicker = $mdp.multiDatesPicker({
